@@ -11,6 +11,8 @@ Uses and ships with a Markdown template, but Jinja2 template engine is used, so 
 
 ```git clone https://github.com/dante383/xdf2readme```
 
+```cd xdf2readme && python3 -m pip install -r requirements.txt```
+
 ## Usage
 
 ```python3 xdf2readme.py --template templates/opengk_template.md --output ca663056.md examples/ca663056.xdl```
